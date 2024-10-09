@@ -1,0 +1,130 @@
+.chat-icon {
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;  /* Adjust this value to move the icon rightward */
+  transform: translate(-50%, -50%);
+}
+.chat-window {
+  position: absolute;
+  top :160px;
+  bottom: 0px; /* Adjust this value to position the chat window above the icon */
+  right: 20px;  /* Align with the icon's right position */
+  width: 419px;
+  height: 561px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  border-radius: 15px;
+  
+}
+.field{
+  width: 148px;
+height: 11px;
+top: 20px;
+left: 61px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+
+
+
+.chat-header {
+  width: 419px;
+  height: 50px;
+  left: 419px;
+  gap: 0px;
+  border-radius: 15px 15px 0px 0px;
+  opacity: 0px;
+  angle: -180 deg;
+  background: linear-gradient(#079CD4, #00ADEE);
+  
+}
+
+.chat-content {
+  padding: 10px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.close-btn {
+  width: 8.88px;
+height: 8.88px;
+top: 21px;
+left: 390px;
+gap: 0px;
+border: 0.5px 0px 0px 0px;
+opacity: 0px;
+
+  background: #E0E0E0;
+  ;
+  
+}
+/* .chat-input{
+  width: 72px;
+  height: 17px;
+  top: 524px;
+  left: 23px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 18px;
+  
+  
+
+} */
+
+.chatbot .chat-input {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 3px 20px;
+  border-top: 1px solid #ddd;
+}
+.chat-input textarea {
+  height: 55px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  max-height: 180px;
+  padding: 15px 15px 15px 0;
+  font-size: 0.95rem;
+  padding: 18px;
+}
+.chat-input span {
+  align-self: flex-end;
+  color: #724ae8;
+  cursor: pointer;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  font-size: 1.35rem;
+}
+.chat-input textarea:valid ~ span {
+  visibility: visible;
+}
+.ji{
+  padding:18px;
+}
+
+.sendbutton{
+  width: 21px;
+height: 21px;
+top: 520px;
+left: 381px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
